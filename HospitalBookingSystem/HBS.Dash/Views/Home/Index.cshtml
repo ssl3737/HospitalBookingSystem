@@ -1,0 +1,72 @@
+﻿<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script src="~/js/jquery.unobtrusive-ajax.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+<link href="~/css/hbs.css" rel="stylesheet" type="text/css" />
+
+<form asp-controller="Home" asp-action="SubmitResult" data-ajax="true" data-ajax-update="#showResult">
+    <div class="container index">
+        <div class="col-md-12">
+            <div class="col-md-5">
+                <div class="form-group">
+                    <div class='input-group date' id='bookingDate'>
+                        <h3>Booking Date</h3>
+                        <input type='text' name="bookingDate" class="form-control" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="form-group">
+                    <div class="location">
+                        <h3>Location</h3>
+                        @Html.DropDownList("clinicId", new SelectList(ViewBag.Clinics, "Id", "FullName"), new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="col-md-5">
+                <div class="form-group">
+                    <div class='input-group date' id='bookingTime'>
+                        <h3>Booking Time</h3>
+                        <input type='text' name="bookingTime" class="form-control" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-time"></span>
+                        </span>
+                    </div>
+                </div>
+             </div>
+            <div class="col-md-5">
+                <div class="form-group">
+                    <div class='dropdown category'>
+                        <h3>Category</h3>
+                        @Html.DropDownList("categoryId", new SelectList(ViewBag.Categories, "Id", "FullName"), new { @class = "form-control" })
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <button type="submit" class="btn-default submit btn btn-default">Submit</button>
+            </div>
+         </div>
+      </div>
+</form>
+
+<div id="showResult"></div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#bookingDate').datetimepicker({
+                format: 'DD-MMM-YYYY',
+                daysOfWeekDisabled: [0, 6]
+            });
+            $('#bookingTime').datetimepicker({
+                format: 'HH:00',
+                minDate: moment({ h: 9 }),
+                maxDate: moment({ h: 17 })
+            });
+        });
+    </script>

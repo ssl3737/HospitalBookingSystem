@@ -1,0 +1,36 @@
+﻿@inject UserManager<ApplicationUser> UserManager
+
+@model IEnumerable<HBS.Model.ViewModels.stp_GetDoctorScheduleVM>
+<div class="table-responsive">
+    <h3>Booking History</h3>
+    <h4>@UserManager.GetUserName(User)</h4>
+        <table class="table table-hover">
+            <tr>
+                <th>Booking Date</th>
+                <th>Booking Time</th>
+                <th>User Name</th>
+                <th>Category</th>
+                <th>Clinic</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(x => item.BookingDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(x => item.BookingTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(x => item.UserFullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(x => item.CategoryFullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(x => item.ClinicFullName)
+                    </td>
+                </tr>
+            }
+        </table>
+</div>

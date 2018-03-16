@@ -1,0 +1,17 @@
+\\van-fs6\users$\soran.shim\my documents\visual studio 2017\Projects\HBS.Dash\HBS.Model\bin\Debug\netcoreapp1.1\HBS.Model.deps.json
+\\van-fs6\users$\soran.shim\my documents\visual studio 2017\Projects\HBS.Dash\HBS.Model\bin\Debug\netcoreapp1.1\HBS.Model.dll
+\\van-fs6\users$\soran.shim\my documents\visual studio 2017\Projects\HBS.Dash\HBS.Model\obj\Debug\netcoreapp1.1\HBS.Model.AssemblyInfo.cs
+\\van-fs6\users$\Soran.Shim\My Documents\Visual Studio 2017\Projects\HospitalBookingSystem\HBS.Model\bin\Debug\netcoreapp1.1\HBS.Model.deps.json
+\\van-fs6\users$\Soran.Shim\My Documents\Visual Studio 2017\Projects\HospitalBookingSystem\HBS.Model\bin\Debug\netcoreapp1.1\HBS.Model.dll
+\\van-fs6\users$\Soran.Shim\My Documents\Visual Studio 2017\Projects\HospitalBookingSystem\HBS.Model\bin\Debug\netcoreapp1.1\HBS.Model.pdb
+\\van-fs6\users$\Soran.Shim\My Documents\Visual Studio 2017\Projects\HospitalBookingSystem\HBS.Model\obj\Debug\netcoreapp1.1\HBS.Model.csprojResolveAssemblyReference.cache
+\\van-fs6\users$\Soran.Shim\My Documents\Visual Studio 2017\Projects\HospitalBookingSystem\HBS.Model\obj\Debug\netcoreapp1.1\HBS.Model.AssemblyInfo.cs
+\\van-fs6\users$\Soran.Shim\My Documents\Visual Studio 2017\Projects\HospitalBookingSystem\HBS.Model\obj\Debug\netcoreapp1.1\HBS.Model.dll
+\\van-fs6\users$\Soran.Shim\My Documents\Visual Studio 2017\Projects\HospitalBookingSystem\HBS.Model\obj\Debug\netcoreapp1.1\HBS.Model.pdb
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Model\bin\Debug\netcoreapp1.1\HBS.Model.deps.json
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Model\bin\Debug\netcoreapp1.1\HBS.Model.dll
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Model\bin\Debug\netcoreapp1.1\HBS.Model.pdb
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Model\obj\Debug\netcoreapp1.1\HBS.Model.csprojResolveAssemblyReference.cache
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Model\obj\Debug\netcoreapp1.1\HBS.Model.AssemblyInfo.cs
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Model\obj\Debug\netcoreapp1.1\HBS.Model.dll
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Model\obj\Debug\netcoreapp1.1\HBS.Model.pdb

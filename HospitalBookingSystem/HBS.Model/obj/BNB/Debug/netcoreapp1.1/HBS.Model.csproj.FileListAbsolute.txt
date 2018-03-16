@@ -1,0 +1,6 @@
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Model\bin\BNB\Debug\netcoreapp1.1\HBS.Model.deps.json
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Model\bin\BNB\Debug\netcoreapp1.1\HBS.Model.dll
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Model\bin\BNB\Debug\netcoreapp1.1\HBS.Model.pdb
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Model\obj\BNB\Debug\netcoreapp1.1\HBS.Model.AssemblyInfo.cs
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Model\obj\BNB\Debug\netcoreapp1.1\HBS.Model.dll
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Model\obj\BNB\Debug\netcoreapp1.1\HBS.Model.pdb

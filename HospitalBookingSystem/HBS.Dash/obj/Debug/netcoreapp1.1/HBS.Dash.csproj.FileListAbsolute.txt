@@ -1,0 +1,14 @@
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Dash\bin\Debug\netcoreapp1.1\HBS.Dash.deps.json
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Dash\bin\Debug\netcoreapp1.1\HBS.Dash.runtimeconfig.json
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Dash\bin\Debug\netcoreapp1.1\HBS.Dash.runtimeconfig.dev.json
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Dash\obj\Debug\netcoreapp1.1\HBS.Dash.csprojResolveAssemblyReference.cache
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Dash\obj\Debug\netcoreapp1.1\HBS.Dash.AssemblyInfo.cs
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Dash\bin\Debug\netcoreapp1.1\HBS.Dash.dll
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Dash\bin\Debug\netcoreapp1.1\HBS.Dash.pdb
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Dash\bin\Debug\netcoreapp1.1\HBS.Data.dll
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Dash\bin\Debug\netcoreapp1.1\HBS.Model.dll
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Dash\bin\Debug\netcoreapp1.1\HBS.Data.pdb
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Dash\bin\Debug\netcoreapp1.1\HBS.Model.pdb
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Dash\obj\Debug\netcoreapp1.1\HBS.Dash.dll
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Dash\obj\Debug\netcoreapp1.1\HBS.Dash.pdb
+C:\Users\Soran.Shim\Desktop\HospitalBookingSystem\HBS.Dash\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs

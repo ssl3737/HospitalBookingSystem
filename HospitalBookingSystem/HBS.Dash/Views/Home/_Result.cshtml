@@ -1,0 +1,42 @@
+﻿@model IEnumerable<HBS.Model.ViewModels.stp_GetDoctorCategoryVM>
+
+<div class="table-responsive">
+    <h3>Doctors</h3>
+    <table class="table table-hover">
+        <tr>
+            <th>Name</th>
+            <th>WorkingDays</th>          
+            <th>Category</th>
+            <th>Booking Date</th>
+            <th>Booking Time</th>
+            <th>Booking</th>
+        </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(x => item.DoctorFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(x => item.WorkingDays)
+            </td>
+            <td>
+                @Html.DisplayFor(x => item.CategoryFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(x => item.BookingDate)
+            </td>
+            <td>
+                @Html.DisplayFor(x => item.BookingTime)
+            </td>
+            <td>
+                @Html.ActionLink("Book", "BookingResult", "Home",
+                    new
+                    {
+                      item.CategoryFullName, item.BookingDate, item.BookingTime, item.DoctorId
+                    })
+            </td>
+        </tr>
+            }
+    </table>
+</div>
